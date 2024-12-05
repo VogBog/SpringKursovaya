@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 16px;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 16px;
+    padding: 16px;
+    min-width: 300px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.approved {
+    border-color: blue;
+    border-width: 4px;
+}

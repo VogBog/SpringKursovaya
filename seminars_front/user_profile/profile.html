@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ваш профиль</title>
+</head>
+<body>
+    <div class="center">
+        <h2>Ваш профиль</h2>
+        <h3 id="username">...</h3>
+        <span id="login">...</span>
+        <div class="horizontal">
+            <button onclick="{goTo('../locations/locations.html');}">Ваши места</button>
+            <button onclick="{goTo('../myEvents/events.html');}">Ваши события</button>
+            <button onclick="{goToAllEvents(-1);}">Обзор мероприятий</button>
+            <button onclick="{goToAllEvents(1)}">Подписанные мероприятия</button>
+            <button onclick="{goTo('../requests/requests.html')}">Запросы</button>
+            <button onclick="{goTo('../request_to_you/requests.html')}">Запросы на рассмотрение</button>
+        </div>
+        <button onclick="{quit();}">Выйти</button>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>

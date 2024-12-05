@@ -1,0 +1,20 @@
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 16px;
+}
+
+.list {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.location {
+    border: solid black 1px;
+    padding: 6px;
+}

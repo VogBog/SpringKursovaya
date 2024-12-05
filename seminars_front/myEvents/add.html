@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить</title>
+</head>
+<body>
+    <span id="error_text"></span><br>
+    Название <input type="text" id="name"><br>
+    Дата мероприятия <input type="date" id="date"><br>
+    Идёт с <input type="time" id="open_time"> до <input type="time" id="close_time"><br>
+    Стоимость билета <input type="number" id="cost"><br>
+    Локация: <span id="location-name">Не выбрано</span><br>
+    <div class="list" id="locations-list">
+
+    </div><br>
+    <button onclick="{submit()}">Сохранить</button><br>
+    <button onclick="{goTo('events.html')}">Отмена</button>
+</body>
+</html>
+<script src="../default/script.js"></script>
+<script src="add.js"></script>
